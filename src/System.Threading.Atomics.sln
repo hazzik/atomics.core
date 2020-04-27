@@ -7,6 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Threading.Atomics", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Threading.Atomics.Tests", "System.Threading.Atomics.Tests\System.Threading.Atomics.Tests.csproj", "{69BAF371-84B9-422F-85ED-1EA194E84769}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF313D2E-4BD9-4E2B-89CC-25C02B3BABB9}"
+ProjectSection(SolutionItems) = preProject
+	..\version.json = ..\version.json
+	..\appveyor.yml = ..\appveyor.yml
+	..\README.md = ..\README.md
+	..\LICENSE = ..\LICENSE
+	..\Directory.Build.props = ..\Directory.Build.props
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
