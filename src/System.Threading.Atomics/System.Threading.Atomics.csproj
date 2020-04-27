@@ -11,4 +11,8 @@
         <PackageTags>atomics;threading</PackageTags>
         <RepositoryUrl>https://github.com/szKarlen/atomics.net.git</RepositoryUrl>
     </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="all" />
+      <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all" />
+    </ItemGroup>
 </Project>
