@@ -1,6 +1,7 @@
-# atomics.net
+# Atomics.Core
 
-[![Build status](https://ci.appveyor.com/api/projects/status/wnh7fat3oqas0wer?svg=true)](https://ci.appveyor.com/project/szKarlen/atomics-net) [![NuGet](https://img.shields.io/nuget/v/System.Threading.Atomics.svg?style=flat)](http://www.nuget.org/packages/System.Threading.Atomics/)
+[![Build status](https://ci.appveyor.com/api/projects/status/8f1uahw1ma6nf9rd?svg=true)](https://ci.appveyor.com/project/hazzik/atomics-core)
+[![NuGet](https://img.shields.io/nuget/v/Atomics.Core.svg?style=flat)](http://www.nuget.org/packages/Atomics.Core/)
 
 This package enables .NET projects to use atomic primitives.
 

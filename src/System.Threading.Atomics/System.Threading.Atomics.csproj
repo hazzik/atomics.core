@@ -3,13 +3,14 @@
         <TargetFrameworks>net40;net45;net461;netstandard2.0;netstandard2.1</TargetFrameworks>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <Description>Atomic primitives for .NET Standard</Description>
-        <Copyright>Copyright © Karlen Simonyan 2015</Copyright>
+        <Copyright>Copyright © Karlen Simonyan 2015; Alexander Zaytsev 2020</Copyright>
+        <PackageId>Atomics.Core</PackageId>
         <PackageDescription>This package enables .NET projects to use atomic primitives.</PackageDescription>
-        <PackageProjectUrl>https://github.com/szKarlen/atomics.net</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/szKarlen/atomics.net/master/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/hazzik/atomics.core</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/hazzik/atomics.core/master/LICENSE</PackageLicenseUrl>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageTags>atomics;threading</PackageTags>
-        <RepositoryUrl>https://github.com/szKarlen/atomics.net.git</RepositoryUrl>
+        <RepositoryUrl>https://github.com/hazzik/atomics.core.git</RepositoryUrl>
     </PropertyGroup>
     <ItemGroup>
       <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="all" />
