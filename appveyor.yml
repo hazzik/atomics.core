@@ -1,0 +1,12 @@
+version: 1.0.{build}
+image: Visual Studio 2019
+build_script:
+  - dotnet pack -c Release -o out src
+artifacts:
+  - path: out\*.nupkg
+deploy:
+  - provider: NuGet
+    api_key:
+      secure: kD3COxgvn1+yrAFttuGD2MSe4PDW4EGdjrEBYLCcnDyukou0UFvF20s7UmCHeW5f
+    on:
+      branch: master
